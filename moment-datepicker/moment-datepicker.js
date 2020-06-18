@@ -293,7 +293,7 @@
             //TODO: use diff
             var nextMonthVal = moment(prevMonth).add(42, 'days').valueOf();
 
-            html = [];
+            var html = [];
             var clsName;
             //TODO: use diff
             while (prevMonth.valueOf() < nextMonthVal) {
